@@ -9,7 +9,7 @@ const Navbar = () => {
             <Nav>
                 <Logo to="/">
 
-                    <i>{"Peerlog"}</i><span>recipe</span>
+                    <i>{"Peerlog Kitchen "}</i><span> Recipe</span>
 
                 </Logo>
 
@@ -24,8 +24,7 @@ const Navbar = () => {
                     <MenuLink
                       to={{ pathname: "https://github.com/tahiraydin" }}
                       target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                      rel="noopener noreferrer">
                       Github
                     </MenuLink>
                     <MenuLink to="/login">Logout</MenuLink>
@@ -36,4 +35,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar
+export default Navbar ;
